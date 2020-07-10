@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 200px;
+    text-align: center;
+}
+.container table{
+    display: inline-block;
+    background-color: #282C34;
+    border-radius: 5px;
+}
+.container table tbody tr th{
+    font-size: 30px;
+    color: #ffffff;
+    padding: 15px;
+}
+.btn{
+    background: #3B5868;
+    color:#ffffff;
+    border:none;
+    height: 75px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    background-color: black;
+    transition: .5s;
+}
+
+.division,.multiplication,.separation,.add,.equal{
+    background-color: steelblue;
+}
+.input{
+    width: 75%;
+    padding: 50px;
+    border: none;
+    font-size: 25px;
+}
+.input:focus{
+    outline: none;
+}
